@@ -1,10 +1,11 @@
-package minesweeper;
+﻿package minesweeper;
 
 import java.awt.*;
 
 public class Field {
 
     public static int width, height;
+    public static int width1, height1;
 
     protected boolean opened; //открыто поле или нет
     protected boolean marked; //помечено или нет
